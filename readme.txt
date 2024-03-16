@@ -28,3 +28,15 @@ used when you need to access multiple elements in the loop at once. we use Each 
 
 Array Methods
 i. tostring() returns string relating to the number.
+ii. push() used to push the elements into an existing array. it mutates or changes the array
+iii. unshift() adds elements to the front of the array and increases the index of every element by one
+property
+iv. pop() pops the last element from the array(the last item in the array is not displayed in the output or rather deleted)
+v. shift() reduces the index by one as it removes the first element from the array.
+vi. slice() cuts the array and returns a shallow copy of a portion of an array into a new array object.the array is sliced from the index specified as begin till the end(end index is excluded). if not specified, the entire array is sliced
+vii.concat() this method is used to merge two or more arrays into a single one
+viii. sort() sorts the array, by default it sorts the array in an ascending order
+ix. reverse() when used after sot it returns the values in descending order.
+x. map() creates a new array from the existing one by applying a function to each of the first array
+xi. filter() takes each element from an array and applies a conditional statement against it. If the condition is true the element gets pushed to the output array
+xii. reduce() reduces an array of values to just one value.it is run on each element of the array to get the single output value
