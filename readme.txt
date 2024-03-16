@@ -23,4 +23,8 @@ array length property
 accessing the last element in an array
 we use the idex property of -1
 
-looping over an arrayused when you need to access multiple elements in the loop at once. we use Each method for this
+looping over an array
+used when you need to access multiple elements in the loop at once. we use Each method for this
+
+Array Methods
+i. tostring() returns string relating to the number.

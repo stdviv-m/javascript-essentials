@@ -22,7 +22,15 @@ console.log(last);
 cars.forEach((item,index)=>{
     console.log(item,index);
 });
-
+// array Methods
+let list_Num= [2,4,6,8,10]
+    for(let x=0;x<list_Num.length;x++)
+    {
+        let y=list_Num[x]
+        console.log(y.toString(2));
+    }
+    // the code output of the above code returns the corresponding binary string
+    
 
 
 
