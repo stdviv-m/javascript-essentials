@@ -58,7 +58,8 @@ Explanation;
 callbackFn:a required parameter that holds the function that is supposed to be executed on every element.it accepts four functions
 total:also called the accumulator and holds the initial value in the beginning and the last returned function.
 curValue:this is a required argument that holds the value of the current element being executed.
-curlndex:optional and holds the index of the current value.
+curlndex : 
+optional and holds the index of the current value.
 Array: This is also optional and holds the initial value passed to the function.
 Reducer is the action performed on the array that reduces the entire array into a single value.
 accumulator is the single value we get as the result.
@@ -68,3 +69,22 @@ Properties of Array Reduce in Javascript
 2.  if you don't provide the initialValue, the accumulator will be equal to the first value and the curValue will equal to the second value.
 3. if you use array reduce on an array without any elements and don't provide the initialValue it will throw a TypeError
 4. if the array is empty and the initialValue is provided or the array has only one element and the initialValue the reduce method will return the same value without calling the callbackFn 
+what are javascript loops
+loop is a programming construct that repeatedly executes a piece of code.
+loop are simple yet extremely powerful
+
+loops are broadly divided:
+1. Entry controlled loops - checks for the condition and the control is transferred inside the loop iff the condition is true
+    loops 
+    '''loops'''
+        '''                 '''
+        entry controlled        exit controlled
+2. Exit controlled
+the exit control loop controls the exit. The exit control loop checks the condition for an exit.
+If the given again into the loop. An example of an the exit controlled loop is a do-while loop
+
+        For loop
+        counter variable= keeps track of how many times the code has been executed
+        countered variable increment usually +1
+        condition code=>keeps looping until the condition is met 
+         for(n=0;n<10;n++)       
