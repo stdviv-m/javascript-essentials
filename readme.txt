@@ -40,3 +40,13 @@ ix. reverse() when used after sot it returns the values in descending order.
 x. map() creates a new array from the existing one by applying a function to each of the first array
 xi. filter() takes each element from an array and applies a conditional statement against it. If the condition is true the element gets pushed to the output array
 xii. reduce() reduces an array of values to just one value.it is run on each element of the array to get the single output value
+
+The syntax and Parameter Values of JS Array Filter()
+consider the syntax below
+array.filter(callbackFn(item,index,array)thisArg)
+in the above syntax;
+callbackFn:this is a required Parameter that holds the callback function that is supposed to be implemented on each statement.
+item: is a required parameter that holds the current element that is being processed
+array on which the filter method is being called.
+ThisArg: This is an optional parameter that, when passed, will hold the “this” value for each invocation. If the argument is not given, undefined will be used as the default value for this keyword.
+Return value: the js array filter method returns a new method with only the elements that have passed the test condition

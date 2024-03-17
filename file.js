@@ -75,6 +75,7 @@ let list_Num= [2,4,6,8,10]
         return total+value;
      }
      console.log(num3);
+    
      
 
 
