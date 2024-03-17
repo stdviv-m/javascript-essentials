@@ -50,3 +50,21 @@ item: is a required parameter that holds the current element that is being proce
 array on which the filter method is being called.
 ThisArg: This is an optional parameter that, when passed, will hold the “this” value for each invocation. If the argument is not given, undefined will be used as the default value for this keyword.
 Return value: the js array filter method returns a new method with only the elements that have passed the test condition
+
+Applications of the reduce()
+the following syntax is used;
+array.reduce(callbackfn(total,curValue,curlndex,array),initialValue)
+Explanation;
+callbackFn:a required parameter that holds the function that is supposed to be executed on every element.it accepts four functions
+total:also called the accumulator and holds the initial value in the beginning and the last returned function.
+curValue:this is a required argument that holds the value of the current element being executed.
+curlndex:optional and holds the index of the current value.
+Array: This is also optional and holds the initial value passed to the function.
+Reducer is the action performed on the array that reduces the entire array into a single value.
+accumulator is the single value we get as the result.
+
+Properties of Array Reduce in Javascript
+1. if you provide initialValue the accumulator will be equal to that value, and the curValue will be equal to the first value of the array.
+2.  if you don't provide the initialValue, the accumulator will be equal to the first value and the curValue will equal to the second value.
+3. if you use array reduce on an array without any elements and don't provide the initialValue it will throw a TypeError
+4. if the array is empty and the initialValue is provided or the array has only one element and the initialValue the reduce method will return the same value without calling the callbackFn 
