@@ -88,3 +88,38 @@ If the given again into the loop. An example of an the exit controlled loop is a
         countered variable increment usually +1
         condition code=>keeps looping until the condition is met 
          for(n=0;n<10;n++)       
+
+Functions and constructors
+JS function is a piece of reusable code that can be called from anywhere in the program. it helps the programmer to write modular code.
+Function Expressions can be stored in a variable which can later be used in place of function call.
+
+Function constructors
+self invoking functions; are invoked automatically without being called.the function expressions will execute automatically if the expression is followed by()
+Arrow functions
+Generator functions
+1. next() when it is called, it runs the code until the nearest yield statement. Then the execution stops and the resulting value is returned as the outer code
+it has two properties;value- the yielded value and done- true if the function code has finished, otherwise false
+the syntax is  
+function* generateFunc(){
+
+            yield 1;
+
+            yield 2;
+
+            return 3;
+
+        }
+
+        let generator = generateFunc();
+
+        let one = generator.next();
+
+        let two = generator.next();
+
+        let three = generator.next();
+
+        alert(JSON.stringify(one));
+
+        alert(JSON.stringify(two));
+
+        alert(JSON.stringify(three));
